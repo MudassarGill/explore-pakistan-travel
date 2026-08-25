@@ -48,6 +48,7 @@
 a:hover{
   color:orange;
 }
-.search a:hover{
+#searching:hover{
 color: white;
+font-size: 29x;
 }
