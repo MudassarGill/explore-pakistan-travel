@@ -45,3 +45,9 @@
 #searching{
     color: orange;
 }
+a:hover{
+  color:orange;
+}
+.search a:hover{
+color: white;
+}
