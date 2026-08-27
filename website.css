@@ -10,25 +10,48 @@
     height: 70px;
     display: flex;
     justify-content: space-around;
-    background-color: rgb(147, 236, 147);
+    background-color: rgb(66, 56, 56);
 }
  .logo{
     width: 10%;
     height: 70px;
     font-size: 30px;
     font-family: sans-serif;
-    background-color: red;
     display: flex;
     justify-content: center;
     padding-top: 10px;
+    color: white;
     
 } 
 .menu{
-    width: 70%;
-    background-color: aquamarine;
+    width: 60%;
+   
     height: 70px;
     
 } 
 .menu ul{
     display: flex;
+    justify-content: space-between;
+   padding-top: 20px;
+}
+.getbtn{
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    border: 2px solid red;
+    height: 50px;
+    padding: 18px;
+    margin-top: 5px;
+    color: white;
+}
+.menu ul li a {
+    text-decoration: none;
+    
+}
+li{
+    list-style-type: none;
+    
+}
+a{
+    color: white;
 }
