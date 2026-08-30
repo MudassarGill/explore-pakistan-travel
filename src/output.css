@@ -361,6 +361,9 @@
   .w-2xl {
     width: var(--container-2xl);
   }
+  .w-3 {
+    width: calc(var(--spacing) * 3);
+  }
   .w-3xl {
     width: var(--container-3xl);
   }
@@ -372,6 +375,9 @@
   }
   .w-30 {
     width: calc(var(--spacing) * 30);
+  }
+  .w-32 {
+    width: calc(var(--spacing) * 32);
   }
   .w-40 {
     width: calc(var(--spacing) * 40);
@@ -399,6 +405,12 @@
   }
   .max-w-xl {
     max-width: var(--container-xl);
+  }
+  .flex-shrink {
+    flex-shrink: 1;
+  }
+  .shrink {
+    flex-shrink: 1;
   }
   .border-collapse {
     border-collapse: collapse;
@@ -431,6 +443,9 @@
   }
   .justify-center-safe {
     justify-content: safe center;
+  }
+  .gap-1 {
+    gap: var(--spacing);
   }
   .gap-2 {
     gap: calc(var(--spacing) * 2);
@@ -486,6 +501,9 @@
   .bg-white {
     background-color: var(--color-white);
   }
+  .bg-\[linear-gradient\(\#001a3399\)\,url\(\'\.\.\/images\/hero-bg\.jpg\'\)\] {
+    background-image: linear-gradient(#001a3399),url('../images/hero-bg.jpg');
+  }
   .bg-\[linear-gradient\(\#0008\)\,url\(\'\.\.\/images\/hero-bg\.jpg\'\)\] {
     background-image: linear-gradient(#0008),url('../images/hero-bg.jpg');
   }
@@ -500,6 +518,9 @@
   }
   .bg-\[linear-gradient\(\#000910\)\,url\(\'\.\.\/images\/hero-bg\.jpg\'\)\] {
     background-image: linear-gradient(#000910),url('../images/hero-bg.jpg');
+  }
+  .bg-\[linear-gradient\(\#00091099\)\,url\(\'\.\.\/images\/hero-bg\.jpg\'\)\] {
+    background-image: linear-gradient(#00091099),url('../images/hero-bg.jpg');
   }
   .bg-\[linear-gradient\(rgba\(\#000910\)\)\,url\(\'\.\.\/images\/hero-bg\.jpg\'\)\] {
     background-image: linear-gradient(rgba(#000910)),url('../images/hero-bg.jpg');
@@ -539,6 +560,9 @@
   }
   .p-40 {
     padding: calc(var(--spacing) * 40);
+  }
+  .px-2 {
+    padding-inline: calc(var(--spacing) * 2);
   }
   .px-6 {
     padding-inline: calc(var(--spacing) * 6);
@@ -821,16 +845,30 @@
     .md\:hidden {
       display: none;
     }
+    .md\:w-40 {
+      width: calc(var(--spacing) * 40);
+    }
     .md\:w-auto {
       width: auto;
+    }
+    .md\:gap-2 {
+      gap: calc(var(--spacing) * 2);
     }
     .md\:text-2xl {
       font-size: var(--text-2xl);
       line-height: var(--tw-leading, var(--text-2xl--line-height));
     }
+    .md\:text-4xl {
+      font-size: var(--text-4xl);
+      line-height: var(--tw-leading, var(--text-4xl--line-height));
+    }
     .md\:text-5xl {
       font-size: var(--text-5xl);
       line-height: var(--tw-leading, var(--text-5xl--line-height));
+    }
+    .md\:text-base {
+      font-size: var(--text-base);
+      line-height: var(--tw-leading, var(--text-base--line-height));
     }
   }
   @media (width >= 64rem) {

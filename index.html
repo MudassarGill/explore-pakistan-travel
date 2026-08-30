@@ -8,6 +8,10 @@
     <title>Dewi</title>
 
     <link rel="stylesheet" href="./src/output.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    rel="stylesheet"
+>
 
     <link
         rel="stylesheet"
@@ -19,7 +23,7 @@
 
     <!-- HERO SECTION -->
     <div
-        class="h-screen bg-[linear-gradient(#0009),url('../images/hero-bg.jpg')] bg-cover bg-center">
+        class="h-screen bg-[linear-gradient(#00091099),url('../images/hero-bg.jpg')] bg-cover bg-center">
 
         <!-- NAVBAR -->
         <!-- CHANGE: items-center keeps all navbar elements vertically aligned -->
@@ -211,18 +215,28 @@
             </button>
 
         </div>
-        <div class=" w-full flex justify-center h-50 text-white  mt-25" >
-         <h1 class="text-3xl font-bold md:text-5xl ">PLAN. LAUNCH. GROW.</h1>
+        <div class=" w-full flex justify-center h-50 text-white  mt-25 " >
+         <h1 data-aos="fade-up" data-aos-duration="1000" class="text-3xl font-bold md:text-5xl ">PLAN. LAUNCH. GROW.</h1>
         </div>
-        <div class="w-full flex justify-center  h-50 text-gray-200 absolute top-60 ">
-         <p class="max-w-4xl font-medium  md:text-2xl">We are team of talented designers making websites with Bootstrap</p>
+        <div data-aos="fade-up" data-aos-duration="1000" class="w-full flex justify-center  h-50 text-gray-200 absolute top-60 ">
+         <p data-aos="fade-up"  data-aos-duration="1000" class="max-w-4xl font-medium  md:text-2xl">We are team of talented designers making websites with Bootstrap</p>
         </div>
-        <div class="w-full  absolute top-75 flex justify-center gap-3">
-         <div class="bg-[#ff4a17] h-10 flex items-center w-40 rounded text-white justify-center hover:bg-[#f4430ed7] cursor-pointer">GET STARTED</div>
-         <div class="h-10 flex items-center w-40 justify-center gap-2 text-white hover:text-[#ff4a17] cursor-pointer md:w-auto"><i class="fa-regular fa-circle-play text-4xl text-[#ff4a17] " ></i>  Watch Video</div>
+        <div data-aos="fade-up" data-aos-duration="1000" class="w-full  absolute top-75 flex justify-center gap-3">
+         <div data-aos="fade-up" data-aos-duration="1000" class="bg-[#ff4a17] h-10 shrink flex items-center w-32 rounded text-white justify-center px-2 text-sm md:w-40 md:text-base hover:bg-[#f4430ed7] cursor-pointer ">GET STARTED</div>
+         <div data-aos="fade-up" data-aos-duration="1000"  class="h-10 flex items-center w-32 shrink px-2 justify-center gap-1 md:w-40 md:gap-2 md:text-base text-sm text-white hover:text-[#ff4a17] cursor-pointer "><i class="fa-regular fa-circle-play text-4xl text-[#ff4a17] md:text-4xl" ></i>  Watch Video</div>
         </div>
 
     </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+    AOS.init();
+</script>
 
 </body>
 
