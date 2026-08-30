@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
     <div class="h-screen bg-[linear-gradient(rgba(0,0,0,0.6)),url('../images/hero-bg.jpg')] bg-cover bg-center">
@@ -17,8 +18,9 @@
                 <li><a href="#">SERVICES</a></li>
                 <li><a href="#">PORTFILO</a></li>
                 <li><a href="#">TEAM    </a></li>
-                <li><a href="#">DROPDWON</a>
-                    <ul>
+                <li class="group relative"><a href="#">DROPDWON <i class="fa-solid fa-chevron-down"> </i></a>
+                   <div class="rounded bg-white text-black h-50 w-50 pt-5 pl-5 text-sm/6 absolute top-full  font-medium hidden group-hover:block">
+                     <ul>
                         <li><a>DropDown</a></li>
                         <li><a>DropDown</a></li>
                         <li><a>DropDown</a></li>
@@ -26,6 +28,7 @@
                         <li><a>DropDown</a></li>
                         <li><a>DropDown</a></li>
                     </ul>
+                   </div>
                 </li>
                 <li><a href="#">CONTACT </a></li>
             </ul>
